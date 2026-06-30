@@ -1,0 +1,1908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Professional Course in Competition Law and Market Regulations (APCCLMR)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Smooth transitions for interactive elements */
+        .premium-transition {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Slow-motion horizontal testimonial marquee loop */
+        @keyframes marquee {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-50%, 0, 0); }
+        }
+        .testimonial-marquee {
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            width: 100%;
+        }
+        .testimonial-track {
+            display: inline-flex;
+            animation: marquee 60s linear infinite; /* Beautifully slow, cinematic motion */
+        }
+        .testimonial-track:hover {
+            animation-play-state: paused;
+        }
+        .testimonial-card {
+            white-space: normal;
+            flex-shrink: 0;
+            width: 300px;
+            margin-right: 16px;
+        }
+        @media(min-width: 640px) {
+            .testimonial-card {
+                width: 350px;
+                margin-right: 24px;
+            }
+        }
+.faq-section{
+    background:#eaf4fd;
+    padding:60px 0;
+}
+
+.faq-section .container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.faq-title{
+    text-align:center;
+    color:#00579f;
+    font-size:20px;
+    font-weight:800;
+    margin-bottom:10px;
+    tracking-tight: -0.025em;
+}
+@media(min-width: 640px) {
+    .faq-title{
+        font-size:30px;
+    }
+}
+
+.faq-line{
+    width:48px;
+    height:6px;
+    background: linear-gradient(to right, #0f5298, #c4d600);
+    margin:16px auto 40px;
+    border-radius: 9999px;
+}
+
+.faq-tabs{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-bottom:35px;
+    flex-wrap:wrap;
+}
+
+.faq-tab{
+    padding:8px 20px;
+    border-radius:40px;
+    border:2px solid #00579f;
+    background:white;
+    color:#00579f;
+    cursor:pointer;
+    font-size:12px;
+    font-weight: 700;
+    transition:.3s;
+}
+@media(min-width: 768px) {
+    .faq-tabs { gap:18px; margin-bottom:45px; }
+    .faq-tab { padding:10px 24px; font-size:14px; }
+}
+
+.faq-tab.active{
+    background:#00579f;
+    color:white;
+    box-shadow:0 8px 18px rgba(0,87,159,.25);
+}
+
+.faq-content{
+    display:none;
+}
+
+.faq-content.active{
+    display:block;
+}
+
+.faq-item{
+    background:#fff;
+    margin-bottom:20px;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.faq-question{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+    border:none;
+    padding:18px 20px;
+    font-size:14px;
+    font-weight:700;
+    text-align:left;
+    cursor:pointer;
+    color: #0f172a;
+}
+@media(min-width: 768px) {
+    .faq-question { padding:24px 28px; font-size:16px; }
+}
+
+.faq-question.active{
+    color:#00579f;
+}
+
+.faq-question span{
+    font-size:18px;
+    transition:.3s;
+}
+@media(min-width: 768px) {
+    .faq-question span { font-size:22px; }
+}
+
+.faq-answer{
+    display:none;
+    border-top:1px solid #eee;
+    padding:20px;
+    font-size:12px;
+    line-height:1.7;
+    color:#475569;
+}
+@media(min-width: 768px) {
+    .faq-answer { padding:25px 30px; font-size:14px; line-height:1.8; }
+}
+
+.faq-item.open .faq-answer{
+    display:block;
+}
+
+.faq-item.open span{
+    transform:rotate(180deg);
+}
+
+.faq-contact{
+    margin-top:50px;
+    text-align:center;
+    font-size:12px;
+    color: #475569;
+}
+@media(min-width: 768px) {
+    .faq-contact { font-size:14px; }
+}
+
+.faq-contact a{
+    color:#00579f;
+    text-decoration:none;
+    font-weight: 700;
+}
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+#modules .premium-transition {
+    transition: all 0.35s ease;
+}
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 scroll-smooth">
+    
+    <div class="bg-neutral-100 border-b border-slate-200 text-[10px] sm:text-xs text-slate-600 font-semibold px-[5%] md:px-[10%] py-1.5 flex justify-between items-center">
+        <div class="flex items-center gap-4">
+            <span class="flex items-center gap-1">
+               भारत सरकार | Government of India
+            </span>
+            <span class="hidden md:inline text-slate-300">|</span>
+            <span class="hidden md:inline">कारपोरेट कार्य मंत्रालय | Ministry of Corporate Affairs</span>
+        </div>
+    </div>
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-xs premium-transition">
+        <div class="px-[5%] md:px-[10%] py-4 flex flex-col lg:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-3 border-r border-slate-200 pr-4">
+                    <img src="images\Emblem_of_India.svg" 
+                         alt="Indian Emblem" 
+                         class="h-12 sm:h-14 w-auto object-contain"
+                         onerror="this.onerror=null; this.src='https://placehold.co/80x100/ffffff/000000?text=Govt+Emblem'">
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex items-center gap-2">
+                        <img src="images\logo_iica.png" 
+                             alt="IICA Logo" 
+                             class="h-12 sm:h-14 w-auto object-contain"
+                             onerror="this.onerror=null; this.src='https://placehold.co/140x50/0f5298/ffffff?text=IICA+Logo'">
+                    </div>
+                </div>
+            </div>
+
+            <nav class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm font-semibold text-slate-600">
+                <a href="#home" class="hover:text-[#0f5298] transition-colors premium-transition">Home</a>
+                <a href="#features" class="hover:text-[#0f5298] transition-colors premium-transition">Features</a>
+                <a href="#modules" class="hover:text-[#0f5298] transition-colors premium-transition">Modules</a>
+                <a href="#leadership" class="hover:text-[#0f5298] transition-colors premium-transition">Faculty</a>
+                <a href="#contact" class="hover:text-[#0f5298] transition-colors premium-transition">Contact</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScTXu_10aBUszX4LtTvkFkA8R_rjSPQG5eUZWwktd_vL45xAw/viewform?pli=1" class="bg-gradient-to-r from-[#0f5298] to-[#1261b0] hover:from-[#1261b0] hover:to-[#0f5298] text-white px-4 sm:px-5 py-2 rounded-lg font-bold transition-all shadow-md hover:shadow-lg text-[11px] sm:text-xs tracking-wide">
+                    Enquire Now
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-gradient-to-r from-[#c4d600]/10 via-white to-[#c4d600]/10 border-b border-slate-200/50 py-3 text-[#0f5298] font-bold text-xs sm:text-sm text-center px-[5%] md:px-[10%]">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6">
+            <span class="flex items-center gap-1.5">
+                <i class="fa-solid fa-calendar-xmark text-red-600"></i>
+                Last date of registration: 20 July, 2026
+            </span>
+            <span class="hidden sm:inline text-slate-300">|</span>
+            <span class="flex items-center gap-1.5">
+                <i class="fa-solid fa-play text-[#0f5298]"></i>
+                Commencement of Classes: 26 July, 2026
+            </span>
+        </div>
+    </div>
+
+    <section id="home" class="relative bg-gradient-to-tr from-[#082a52] via-[#0f5298] to-[#146fc9] text-white py-12 sm:py-20 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,214,0,0.1),transparent_50%)]"></div>
+
+        <div class="relative z-10 px-[5%] md:px-[10%] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+            <div class="lg:col-span-8 space-y-4 sm:space-y-6">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-[#c4d600] px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-extrabold tracking-widest uppercase">
+                    <i class="fa-solid fa-circle-play animate-pulse text-[#c4d600]"></i> Thirteenth Batch (Online)
+                </div>
+                <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-white drop-shadow-xs">
+                    Advanced Professional Course in Competition Law and Market Regulations
+                </h1>
+                <p class="text-xs sm:text-base text-slate-200 leading-relaxed text-justify">
+                    Uniquely designed and developed by SoCLMR as a shorter, flexible and focused option to acquire advanced understanding of Competition Law and market regulation with a flavor of practical perspective.
+                </p>
+                <div class="flex flex-wrap gap-3 sm:gap-4 pt-2">
+                    <a href="https://wa.me/917987549339/?text=Hey!%20I%20am%20interested%20to%20enroll%20in%20Advanced%20Professional%20Course%20in%20Competition%20Law%20and%20Market%20Regulation."
+   target="_blank"
+   rel="noopener"
+   class="bg-[#25D366] hover:bg-[#1ebe5d] text-white font-black px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg transition-all hover:scale-[1.02] shadow-lg hover:shadow-xl text-xs sm:text-sm flex items-center gap-2">
+    <i class="fab fa-whatsapp text-lg"></i>
+    Speak to Coordinator
+</a>
+                    <a href="#" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg transition-all text-xs sm:text-sm flex items-center gap-2 premium-transition">
+                        <i class="fa-solid fa-file-pdf"></i> Download Brochure
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-4 bg-white/5 backdrop-blur-lg border border-white/10 p-4 sm:p-6 rounded-2xl space-y-6">
+                <div class="grid grid-cols-2 gap-3 sm:gap-4 text-center">
+                    <div class="p-3 sm:p-4 bg-white/5 rounded-xl border border-white/10 premium-transition hover:bg-white/10">
+                        <div class="text-xl sm:text-2xl font-black text-[#c4d600]">12+</div>
+                        <div class="text-[9px] sm:text-[10px] text-slate-300 font-bold uppercase tracking-wider mt-1">Weeks Duration</div>
+                    </div>
+                    <div class="p-3 sm:p-4 bg-white/5 rounded-xl border border-white/10 premium-transition hover:bg-white/10">
+                        <div class="text-xl sm:text-2xl font-black text-[#c4d600]">1000+</div>
+                        <div class="text-[9px] sm:text-[10px] text-slate-300 font-bold uppercase tracking-wider mt-1">Active Learners</div>
+                    </div>
+                    <div class="p-3 sm:p-4 bg-white/5 rounded-xl border border-white/10 premium-transition hover:bg-white/10">
+                        <div class="text-xl sm:text-2xl font-black text-[#c4d600]">4000+</div>
+                        <div class="text-[9px] sm:text-[10px] text-slate-300 font-bold uppercase tracking-wider mt-1">Learning Hours</div>
+                    </div>
+                    <div class="p-3 sm:p-4 bg-white/5 rounded-xl border border-white/10 premium-transition hover:bg-white/10">
+                        <div class="text-xl sm:text-2xl font-black text-[#c4d600]">Online</div>
+                        <div class="text-[9px] sm:text-[10px] text-slate-300 font-bold uppercase tracking-wider mt-1">Flexible Mode</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 sm:py-20 bg-gradient-to-b from-white to-slate-50">
+        <div class="px-[5%] md:px-[10%] grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div class="space-y-4 sm:space-y-6">
+                <h2 class="text-xl sm:text-3xl font-extrabold text-[#0f5298] tracking-tight">
+                    Advanced Professional Course in Competition Law and Market Regulations
+                </h2>
+                <div class="h-1.5 w-16 bg-gradient-to-r from-[#0f5298] to-[#c4d600] rounded-full"></div>
+                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                    The online certification in Competition Law provides for a robust environment where the learners will get an opportunity to learn to understand and adapt critical strategies and expertise. Thus, the learning will be holistic in nature through scheduled online classes by the subject matter experts for each of the modules.
+                </p>
+                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                    This course has now emerged as the gold standard in the area of competition law, economics and market regulations on the merits of rigorous course content and focus on specialized professional modules.
+                </p>
+            </div>
+
+            <div class="relative bg-white p-2 sm:p-3 rounded-2xl border border-slate-200/60 shadow-md max-w-md mx-auto lg:max-w-none">
+                <div class="w-full rounded-xl overflow-hidden relative">
+                    <img src="images\Sample certificate.png" 
+                         alt="IICA APCCLMR Sample Certificate of Completion" 
+                         class="w-full h-auto object-cover rounded-lg shadow-inner"
+                         onerror="this.onerror=null; this.src='image_164e9d.jpg'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-[1px] bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
+
+    <section id="features" class="py-12 sm:py-20 bg-slate-50">
+        <div class="px-[5%] md:px-[10%]">
+            <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-16">
+                <h2 class="text-xl sm:text-3xl font-extrabold text-[#0f5298] tracking-tight">Course Features</h2>
+                <div class="h-1.5 w-12 bg-gradient-to-r from-[#0f5298] to-[#c4d600] mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg premium-transition group relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-[#0f5298]"></div>
+                    <div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#0f5298]/10 text-[#0f5298] rounded-xl flex items-center justify-center mb-4 sm:mb-6 text-lg sm:text-xl premium-transition group-hover:scale-110">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-2">50+ Hours Virtual Classes</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                            Comprehensive online classes delivered through our advanced LMS platform.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg premium-transition group relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-[#c4d600]"></div>
+                    <div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#c4d600]/20 text-[#0f5298] rounded-xl flex items-center justify-center mb-4 sm:mb-6 text-lg sm:text-xl premium-transition group-hover:scale-110">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-2">Structured Literature</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                            Access to repository of structured literature, readings, acts spanning 34+ Modules.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg premium-transition group relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-[#0f5298]"></div>
+                    <div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#0f5298]/10 text-[#0f5298] rounded-xl flex items-center justify-center mb-4 sm:mb-6 text-lg sm:text-xl premium-transition group-hover:scale-110">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-2">Esteemed Faculty</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                            Learn from experienced faculty of institutional and international repute.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg premium-transition group relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-[#c4d600]"></div>
+                    <div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#c4d600]/20 text-[#0f5298] rounded-xl flex items-center justify-center mb-4 sm:mb-6 text-lg sm:text-xl premium-transition group-hover:scale-110">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-2">Certification</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                            Certificate of Completion / Participation based on the chosen track and evaluation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg premium-transition group relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-[#0f5298]"></div>
+                    <div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#0f5298]/10 text-[#0f5298] rounded-xl flex items-center justify-center mb-4 sm:mb-6 text-lg sm:text-xl premium-transition group-hover:scale-110">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
+                        <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-2">Recorded Access</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                            Optional recorded session access provided through the Learning Management System.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg premium-transition group relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-[#c4d600]"></div>
+                    <div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 bg-[#c4d600]/20 text-[#0f5298] rounded-xl flex items-center justify-center mb-4 sm:mb-6 text-lg sm:text-xl premium-transition group-hover:scale-110">
+                            <i class="fa-solid fa-display"></i>
+                        </div>
+                        <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-2">Responsive Access</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify">
+                            Designed for seamless accessibility on all standard devices including android phones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h-[1px] bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
+
+    <section id="modules" class="py-12 sm:py-20 bg-white">
+        <div class="px-[5%] md:px-[10%]">
+            <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-16">
+                <h2 class="text-xl sm:text-3xl font-extrabold text-[#0f5298] tracking-tight">Modules & Units</h2>
+                <div class="h-1.5 w-12 bg-gradient-to-r from-[#0f5298] to-[#c4d600] mx-auto mt-3 rounded-full"></div>
+                <p class="text-xs text-slate-500 mt-2 block lg:hidden">Tap on any module to view its units.</p>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M1</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module I: New Paradigm of Regulation and Competition</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Macro Context of Market Regulation</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Evolution of Independent Regulation in India</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">Evolution of Competition Law & Policy in India</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M2</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module II: Legal & Economics Foundation</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Fundamentals of Law</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Corporate Laws in India</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">Fundamentals of Economics</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M3</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module III: Competition Law in India</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Substantive Competition Law</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Investigation and Procedural Techniques</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">Voluntary Self Compliance and Leniency Provisions</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M4</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module IV: Economics and Competition Law</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Economics for Understanding Anti-Competitive Agreements</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Economics for Understanding Abuse of Dominance</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">Economics for Understanding Regulation of Combinations</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M5</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module V: Competition Law and Regulated Sector</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Anti-Competitive Agreements in Regulated Sectors</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Abuse of Dominance in Regulated Sectors</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">Regulation of Combinations in Regulated Sectors</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M6</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module VI: Competition Law and Select Jurisdiction</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Regulation of Anti-Competitive Agreements in Selected Jurisdiction</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Regulation of Abuse of Dominance in Selected Jurisdiction</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">Regulation of Combinations in Selected Jurisdiction</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M7</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module VII: Intellectual Property Laws and Competition Law</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Anti-Competitive Agreements: IPRs and Competition Law</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Abuse of Dominance through IPRs (including IP issues in M&A)</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">International Best Practices addressing IP: Competition Law Conflicts</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-[#0f5298]/30 hover:shadow-md premium-transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 border-b border-slate-200/60 pb-3 mb-4">
+                            <span class="w-8 h-8 rounded-lg bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-xs shrink-0">M8</span>
+                            <h3 class="font-extrabold text-slate-900 text-sm tracking-tight">Module VIII: Public Sector and Competition Law</h3>
+                        </div>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-sm text-slate-600 leading-tight">Anti-Competitive Agreements and PSEs</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-sm text-slate-600 leading-tight">Abuse of Dominance and PSEs</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[9px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-sm text-slate-600 leading-tight">Regulation of Combinations and PSEs</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block lg:hidden space-y-4 max-w-xl mx-auto">
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(1)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M1</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module I: New Paradigm of Regulation and Competition</h3>
+                        </div>
+                        <i id="mod-icon-1" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-1" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Macro Context of Market Regulation</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Evolution of Independent Regulation in India</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">Evolution of Competition Law & Policy in India</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(2)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M2</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module II: Legal & Economics Foundation</h3>
+                        </div>
+                        <i id="mod-icon-2" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-2" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Fundamentals of Law</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Corporate Laws in India</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">Fundamentals of Economics</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(3)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M3</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module III: Competition Law in India</h3>
+                        </div>
+                        <i id="mod-icon-3" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-3" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Substantive Competition Law</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Investigation and Procedural Techniques</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">Voluntary Self Compliance and Leniency Provisions</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(4)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M4</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module IV: Economics and Competition Law</h3>
+                        </div>
+                        <i id="mod-icon-4" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-4" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Economics for Understanding Anti-Competitive Agreements</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Economics for Understanding Abuse of Dominance</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">Economics for Understanding Regulation of Combinations</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(5)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M5</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module V: Competition Law and Regulated Sector</h3>
+                        </div>
+                        <i id="mod-icon-5" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-5" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Anti-Competitive Agreements in Regulated Sectors</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Abuse of Dominance in Regulated Sectors</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">Regulation of Combinations in Regulated Sectors</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(6)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M6</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module VI: Competition Law and Select Jurisdiction</h3>
+                        </div>
+                        <i id="mod-icon-6" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-6" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Regulation of Anti-Competitive Agreements in Selected Jurisdiction</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Regulation of Abuse of Dominance in Selected Jurisdiction</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">Regulation of Combinations in Selected Jurisdiction</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(7)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M7</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module VII: Intellectual Property Laws and Competition Law</h3>
+                        </div>
+                        <i id="mod-icon-7" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-7" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Anti-Competitive Agreements: IPRs and Competition Law</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Abuse of Dominance through IPRs (including IP issues in M&A)</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">International Best Practices addressing IP: Competition Law Conflicts</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <button onclick="toggleModuleMobile(8)" class="w-full flex items-center justify-between p-4 focus:outline-none text-left">
+                        <div class="flex items-center gap-3">
+                            <span class="w-7 h-7 rounded-md bg-[#0f5298]/10 text-[#0f5298] flex items-center justify-center font-extrabold text-[11px] shrink-0">M8</span>
+                            <h3 class="font-extrabold text-slate-900 text-xs tracking-tight">Module VIII: Public Sector and Competition Law</h3>
+                        </div>
+                        <i id="mod-icon-8" class="fa-solid fa-chevron-down text-xs text-slate-400 premium-transition"></i>
+                    </button>
+                    <div id="mod-content-8" class="max-h-0 overflow-hidden premium-transition bg-white">
+                        <ul class="p-4 space-y-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 1</span>
+                                <span class="text-xs text-slate-600 leading-tight">Anti-Competitive Agreements and PSEs</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 2</span>
+                                <span class="text-xs text-slate-600 leading-tight">Abuse of Dominance and PSEs</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="bg-[#c4d600] text-[#0f5298] text-[8px] font-extrabold px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0">Unit 3</span>
+                                <span class="text-xs text-slate-600 leading-tight">Regulation of Combinations and PSEs</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="max-w-6xl mx-auto mt-6 bg-gradient-to-r from-[#0f5298]/10 to-transparent border-l-4 border-[#0f5298] p-4 rounded-r-xl">
+
+                <p class="text-xs sm:text-sm text-[#0f5298] font-bold flex items-center gap-2">
+
+                    <i class="fa-solid fa-circle-info"></i>
+
+                    Special Online session on sectoral Regulation will be conducted on the written request of the participants.
+
+                </p>
+
+            </div>
+    </section>
+
+    <section class="py-10 sm:py-14 bg-gradient-to-r from-[#0f5298]/5 via-[#c4d600]/5 to-[#0f5298]/5 border-t border-b border-slate-200/50">
+        <div class="px-[5%] md:px-[10%] text-center space-y-4">
+            <h2 class="text-xl sm:text-2xl font-extrabold text-[#0f5298]">For Whom?</h2>
+            <p class="text-slate-600 text-xs sm:text-sm max-w-4xl mx-auto leading-relaxed text-justify sm:text-center">
+                The Course is specifically designed for Lawyers, in-house Counsels, Chartered Accountants, Company Secretaries, Cost & Work Accountants, Government Officials, Economists, Public Sector Enterprises, Sectoral Regulators, Academicians, Managers, Chief Executive Officers, Company Directors, Prospective Entrepreneurs & Students.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-12 sm:py-20 bg-white">
+        <div class="px-[5%] md:px-[10%] space-y-12 sm:space-y-16">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+                <div class="p-6 sm:p-8 bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-200/80 shadow-xs space-y-4">
+                    <h3 class="text-base sm:text-lg font-bold text-slate-900 border-b border-slate-100 pb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-chart-pie text-[#0f5298]"></i> Assessment Weightage
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between text-xs sm:text-sm text-slate-600 gap-4">
+                            <span>Online MCQ exams (after the end of each module), Online Mid-Term (8 Modules)</span>
+                            <span class="font-bold text-[#0f5298] shrink-0">40%</span>
+                        </div>
+                        <div class="flex justify-between text-xs sm:text-sm text-slate-600 gap-4">
+                            <span>Presentation at the end of Six Months</span>
+                            <span class="font-bold text-[#0f5298] shrink-0">60%</span>
+                        </div>
+                        <div class="border-t border-slate-100 pt-3 flex justify-between text-xs sm:text-sm font-bold text-slate-800">
+                            <span>Total Weightage</span>
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 sm:p-8 bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-200/80 shadow-xs space-y-4">
+                    <h3 class="text-base sm:text-lg font-bold text-slate-900 border-b border-slate-100 pb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-graduation-cap text-[#0f5298]"></i> Learner Earnings
+                    </h3>
+                    <div class="space-y-4 text-xs sm:text-sm text-slate-600">
+                        <p class="text-justify">
+                            <strong>• Certificate of Completion:</strong> Awarded to candidates completing the whole course including Module exams and final presentation.
+                        </p>
+                        <p class="text-justify">
+                            <strong>• Certificate of Participation:</strong> Awarded to candidates attending the whole course without Module exams and final presentation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-md">
+                <div class="bg-gradient-to-r from-[#0f5298] to-[#1261b0] text-white p-4 sm:p-5 flex items-center justify-between">
+                    <h3 class="text-base sm:text-lg font-bold">Course Fee</h3>
+                 </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs sm:text-sm text-slate-600 min-w-[600px]">
+                        <thead class="bg-slate-50 text-slate-700 uppercase font-bold text-[10px] sm:text-[11px] border-b border-slate-200/80">
+                            <tr>
+                                <th class="p-4 sm:p-5">Course Track</th>
+                                <th class="p-4 sm:p-5">Course Fee</th>
+                                <th class="p-4 sm:p-5">Exam Fee</th>
+                                <th class="p-4 sm:p-5">GST (18%)</th>
+                                <th class="p-4 sm:p-5 text-right">Total Fee</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="hover:bg-slate-50/50 premium-transition">
+                                <td class="p-4 sm:p-5 font-bold text-slate-800">Advanced Professional Course (APC)</td>
+                                <td class="p-4 sm:p-5">Rs. 69,375</td>
+                                <td class="p-4 sm:p-5">Rs. 5,625</td>
+                                <td class="p-4 sm:p-5">Rs. 13,500</td>
+                                <td class="p-4 sm:p-5 text-right font-black text-[#0f5298] text-sm">Rs. 88,500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="registration" class="p-6 sm:p-8 bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-200/80 space-y-6 sm:space-y-8 shadow-xs">
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 text-center border-b border-slate-100 pb-3">Registration and Payment Details</h3>
+                <p class="text-xs sm:text-sm text-slate-600 text-center">Interested applicants may register themselves by following the procedure as follows:</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 flex flex-col items-center text-center space-y-3 premium-transition hover:shadow-xs">
+                        <div class="w-10 h-10 bg-[#0f5298]/10 text-[#0f5298] rounded-full flex items-center justify-center font-extrabold">1</div>
+                        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">To Register</h4>
+                        <p class="text-xs text-slate-500">Fill the registration form,<a href="https://iica.nic.in/Program_Registration.aspx" style="color:#0f5298; font-weight: 700; text-decoration: underline;">click here </a></p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 flex flex-col items-center text-center space-y-3 premium-transition hover:shadow-xs">
+                        <div class="w-10 h-10 bg-[#0f5298]/10 text-[#0f5298] rounded-full flex items-center justify-center font-extrabold">2</div>
+                        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Make Payment</h4>
+                        <p class="text-xs text-slate-500">Pay the program fee</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 flex flex-col items-center text-center space-y-3 premium-transition hover:shadow-xs">
+                        <div class="w-10 h-10 bg-[#0f5298]/10 text-[#0f5298] rounded-full flex items-center justify-center font-extrabold">3</div>
+                        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Update Profile</h4>
+                        <p class="text-xs text-slate-500">That's it our team will contact you to inform about the next steps</p>
+                    </div>
+                </div>
+                <div class="text-center pt-2">
+                    <a href="https://pay.webfront.in/#/payment/webfrontpage/indian-institute-of-corporate-affairs/single/6837"
+   class="inline-block bg-gradient-to-r from-[#0f5298] to-[#1261b0] hover:from-[#1261b0] hover:to-[#0f5298] text-white font-bold px-8 py-3 rounded-lg text-xs tracking-widest uppercase transition-all shadow-md hover:shadow-lg">
+    Pay Fee Now
+</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="h-[1px] bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
+
+    <section id="leadership" class="py-12 sm:py-20 bg-slate-50">
+        <div class="px-[5%] md:px-[10%] space-y-10 sm:space-y-12">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="text-xl sm:text-3xl font-extrabold text-[#0f5298] tracking-tight">Course Director & Coordinator</h2>
+                <div class="h-1.5 w-12 bg-gradient-to-r from-[#0f5298] to-[#c4d600] mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="max-w-xs mx-auto bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden premium-transition hover:shadow-md">
+                <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                    <img src="images\DG-CEO-IICA.jpg" 
+                         alt="Sh. Gyaneshwar Kumar Singh" 
+                         class="w-full h-full object-cover object-top"
+                         onerror="this.onerror=null; this.src='https://placehold.co/400x400/0f5298/ffffff?text=Gyaneshwar+Kumar+Singh'">
+                </div>
+                <div class="p-4 sm:p-5 text-left">
+                    <span class="text-[9px] sm:text-[10px] text-[#0f5298] font-black uppercase tracking-widest">Director General & CEO</span>
+                    <h3 class="text-sm sm:text-lg font-black text-slate-900 mt-1">Sh. Gyaneshwar Kumar Singh</h3>
+                    <p class="text-xs text-slate-500 font-semibold mt-1">Director General & CEO, IICA</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 sm:gap-8 max-w-2xl mx-auto">
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden premium-transition hover:shadow-md">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Pyla.jpg" 
+                             alt="Dr. Pyla Narayana Rao" 
+                             class="w-full h-full object-cover object-top"
+                             onerror="this.onerror=null; this.src='https://placehold.co/400x400/0f5298/ffffff?text=Dr+Pyla+Narayana+Rao'">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left">
+                        <span class="text-[8px] sm:text-[9px] text-[#0f5298] font-black uppercase tracking-widest">Course Director</span>
+                        <h4 class="text-xs sm:text-base font-bold text-slate-900 mt-1">Dr. Pyla Narayana Rao</h4>
+                        <p class="text-[10px] sm:text-[11px] text-slate-500">Associate Professor, SoCLMR</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden premium-transition hover:shadow-md">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\drishti.jpeg" 
+                             alt="Ms. Drishti Yadav" 
+                             class="w-full h-full object-cover object-top"
+                             onerror="this.onerror=null; this.src='https://placehold.co/400x400/0f5298/ffffff?text=Ms+Drishti+Yadav'">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left">
+                        <span class="text-[8px] sm:text-[9px] text-[#0f5298] font-black uppercase tracking-widest">Course Coordinator</span>
+                        <h4 class="text-xs sm:text-base font-bold text-slate-900 mt-1">Ms. Drishti Yadav</h4>
+                        <p class="text-[10px] sm:text-[11px] text-slate-500">Senior Research Associate, SoCLMR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faculty" class="py-12 sm:py-20 bg-white">
+    <div class="px-[5%] md:px-[10%] space-y-8 sm:space-y-10">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+            <div>
+                <h2 class="text-xl sm:text-3xl font-extrabold text-[#0f5298] tracking-tight">Teaching Faculty</h2>
+                <div class="h-1.5 w-12 bg-gradient-to-r from-[#0f5298] to-[#c4d600] mt-3 rounded-full"></div>
+            </div>
+            <div class="flex items-center gap-3 self-center sm:self-auto">
+                <button onclick="prevFacultyPage()" class="w-9 h-9 sm:w-10 sm:h-10 border border-slate-200 text-[#0f5298] rounded-full flex items-center justify-center hover:bg-slate-50 hover:border-[#0f5298] transition-all focus:outline-none">
+                    <i class="fa-solid fa-chevron-left text-xs"></i>
+                </button>
+                <span id="faculty-page-indicator" class="text-xs font-bold text-slate-500 min-w-[70px] text-center">Page 1 of 4</span>
+                <button onclick="nextFacultyPage()" class="w-9 h-9 sm:w-10 sm:h-10 border border-slate-200 text-[#0f5298] rounded-full flex items-center justify-center hover:bg-slate-50 hover:border-[#0f5298] transition-all focus:outline-none">
+                    <i class="fa-solid fa-chevron-right text-xs"></i>
+                </button>
+            </div>
+        </div>
+
+<div id="faculty-pages-container">
+
+<div id="page-1" class="faculty-page grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 py-4">                
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\DG-CEO-IICA.jpg" 
+                             alt="Mr. Gyaneshwar Kumar Singh" 
+                             class="w-full h-full object-cover object-top"
+                             onerror="this.onerror=null; this.src='https://placehold.co/300x300/0f5298/ffffff?text=G+K+Singh'">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Gyaneshwar Kumar Singh</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+			<p class="font-bold text-xs text-slate-500 mt-1">Director General & CEO, IICA</p>
+			</div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Pyla.jpg" 
+                             alt="Dr. Pyla Narayana Rao" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Dr. Pyla Narayana Rao
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+			<p class="font-bold text-xs text-slate-500 mt-1">Associate Professor,
+SoCLMR, IICA </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Dhanendra_Kumar.jpg" 
+                             alt="Mr. Dhanendra Kumar" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Dhanendra Kumar </h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                            <p class="font-bold text-xs text-slate-500 mt-1">Distinguished Fellow,
+IICA & Executive
+Chairman </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\peter.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr.Augustin Peter</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                            <p class="font-bold text-xs text-slate-500 mt-1">Former Member, CCI
+</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\DeepakMaheshwari.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Deepak Maheshwari
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                            <p class="font-bold text-xs text-slate-500 mt-1">Head of Government
+Affair, Symantec</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Subodh.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Subodh P. Deo</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner, Sri Krishna &
+Associates</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Vaibhav.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Vaibhav Gaggar</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner, Gaggar &
+Associates</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Suhail.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Suhail Nathani
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Managing Partner,
+Economic Laws Practice</p>
+                        </div>
+                    </div>
+                </div>
+</div>
+<div id="page-2" class="faculty-page grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 py-4 hidden">
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\johnhandoll.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. John Handoll
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Sr. Advisor, Shardul
+Amarchand Mangaldas</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Ratneshwar.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Ratneshwar Prasad
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Former Member, CCI
+</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\RamTamara.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Ram Tamara Senior 
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Director, Cirque Analytics
+</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Pranav.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Pranav Mehra
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Managing Editor,
+Indian Competition
+Law Group
+</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Gautam.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Gautam Shahi</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner, Dua Associates</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Gurdev.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr.  Gurdev Raj Bhatia</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner, Luthra & Luthra
+Law Offices</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\JohnR.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. John Ramirez</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Managing Director,
+EcoOne</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\geetagouri.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Dr. Geeta Gouri</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Former Member, CCI
+</p>
+                        </div>
+                    </div>
+                </div>
+</div>
+<div id="page-3" class="faculty-page grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 py-4 hidden">
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Vinod-Dhall.png" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Vinod Dhall</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Former
+Acting Chairman, CCI</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Girish_Bhatnagar.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Girish Bhatnagar</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Public Procurement
+Consultant, The World
+Bank and Ministry of
+Finance
+</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Dhruv-Rajain.png" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Dhruv Rajain</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner, Cyril Amarchand
+Mangaldas
+</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Karan.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Karan Singh Chandhiok</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Head, Chandhiok &
+Chandhiok Associates</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Avaantika.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Ms. Avaantika Kakka</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner,
+Cyril Amarchand
+Mangaldas</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Dhanendra_Kumar.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Arjun Khera</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Senior Associate,
+Economic Law Practice</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Ravisekhar Nair.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Ravisekhar Nair</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner, Economic Laws
+Practice </p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\PoonamMehra.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Ms. Poonam Mehra 
+</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Associate Professor, IIM
+Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+</div>
+<div id="page-4" class="faculty-page grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 py-4 hidden">
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Payal.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Ms. Payal Malik</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Advisor, CCI
+</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Rahul Rai.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Rahul Rai</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner AZB & Partners</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Gordhan.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Dr. Gordhan Saini</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Assistant Professor,
+TISS</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Bharat.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Bharat Budholia</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner AZB & Partners</p>
+                        </div>
+                    </div>
+                </div>
+<div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Kirthi.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Kirthi Srinivas G</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Senior Associate Cyril
+Amarchand Mangaldas</p>
+                        </div>
+                    </div>
+                </div><div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\Somasekhar.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Dr. T.S. Somasekhar</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Professor, NLSIU,
+Bangalore</p>
+                        </div>
+                    </div>
+                </div><div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden flex flex-col justify-between hover:shadow-md premium-transition">
+                    <div class="aspect-square w-full overflow-hidden bg-slate-100">
+                        <img src="images\AmitabhKumar.jpg" 
+                             class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-3 sm:p-5 text-left flex-1 flex flex-col justify-between">
+                        <div>
+                            <h4 class="font-extrabold text-slate-800 text-xs sm:text-base">Mr. Amitabh Kumar</h4>
+                        </div>
+                        <div class="mt-3 sm:mt-4 pt-1 sm:pt-2 border-t border-slate-100">
+                             <p class="font-bold text-xs text-slate-500 mt-1">Partner, J Sagar &
+Associates</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+            </div>
+    </section>
+
+    <div class="h-[1px] bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
+
+    <section id="testimonials" class="py-12 sm:py-20 bg-slate-50 overflow-hidden relative">
+        <div class="absolute inset-y-0 left-0 w-16 sm:w-32 bg-gradient-to-r from-slate-50 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute inset-y-0 right-0 w-16 sm:w-32 bg-gradient-to-l from-slate-50 to-transparent z-10 pointer-events-none"></div>
+
+        <div class="px-[5%] md:px-[10%]">
+            <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-16">
+                <h2 class="text-xl sm:text-3xl font-extrabold text-[#0f5298] tracking-tight">Testimonials</h2>
+                <div class="h-1.5 w-12 bg-gradient-to-r from-[#0f5298] to-[#c4d600] mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="testimonial-marquee py-4">
+                <div class="testimonial-track">
+    <!-- Testimonial 1 -->
+    <div class="testimonial-card bg-white p-6 rounded-2xl border border-slate-100 shadow-xs flex flex-col justify-between h-[320px]">
+        <div class="relative">
+            <span class="absolute -top-2 -right-2 text-6xl text-slate-100 font-serif leading-none">“</span>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify relative z-10">
+                "The APC in Competition law and Market Regulation has been great help in understanding competition law and market regulation. The faculty covering the various topics have in-depth knowledge of the subject matter and so is the reading material provided for all the eight modules."
+            </p>
+        </div>
+        <div class="border-t border-slate-100 pt-4 mt-4">
+            <h5 class="font-bold text-slate-800 text-sm">Shankar Narayan Mokashi</h5>
+            <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Executive Director (Investment) Retd. | LIC of India</p>
+        </div>
+    </div>
+    
+    <!-- Testimonial 2 -->
+    <div class="testimonial-card bg-white p-6 rounded-2xl border border-slate-100 shadow-xs flex flex-col justify-between h-[320px]">
+        <div class="relative">
+            <span class="absolute -top-2 -right-2 text-6xl text-slate-100 font-serif leading-none">“</span>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify relative z-10">
+                "I am from an Operations background and the purpose was to gather knowledge on Competition law for me to make my knowledge more complete for me preparing to a Leadership or Directorial role. This has clarify many doubts and doubled down that many strategic decision should be analyzed."
+            </p>
+        </div>
+        <div class="border-t border-slate-100 pt-4 mt-4">
+            <h5 class="font-bold text-slate-800 text-sm">Ashish Jude Michael</h5>
+            <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Dy. General Manager | Reliance Jio</p>
+        </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial-card bg-white p-6 rounded-2xl border border-slate-100 shadow-xs flex flex-col justify-between h-[320px]">
+        <div class="relative">
+            <span class="absolute -top-2 -right-2 text-6xl text-slate-100 font-serif leading-none">“</span>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify relative z-10">
+                "The course content is very relevant and up to date. Faculty members delivered the content in a simple yet engaging manner. Special thank you to Drishti Ma'am for co-ordinating and keeping us abreast with the latest update on the course."
+            </p>
+        </div>
+        <div class="border-t border-slate-100 pt-4 mt-4">
+            <h5 class="font-bold text-slate-800 text-sm">Karthik Goda</h5>
+            <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Vice President | Citibank</p>
+        </div>
+    </div>
+
+    <!-- Testimonial 4 -->
+    <div class="testimonial-card bg-white p-6 rounded-2xl border border-slate-100 shadow-xs flex flex-col justify-between h-[320px]">
+        <div class="relative">
+            <span class="absolute -top-2 -right-2 text-6xl text-slate-100 font-serif leading-none">“</span>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify relative z-10">
+                "The course brings clarity on India's competition laws, operations, and, processes. Introduction to regulatory essentials in other geographies too, brings key perspectives on numbers that affect individual day to day lives."
+            </p>
+        </div>
+        <div class="border-t border-slate-100 pt-4 mt-4">
+            <h5 class="font-bold text-slate-800 text-sm">Dhara Gupta</h5>
+            <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Senior Consultant | Self-Employed</p>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+<section id="faq" class="faq-section">
+    <div class="container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-line"></div>
+        
+        <!-- Tabs -->
+        <div class="faq-tabs">
+            <button class="faq-tab active" data-tab="academic">Academic</button>
+            <button class="faq-tab" data-tab="enrollment">Enrollment</button>
+            <button class="faq-tab" data-tab="policy">Policy</button>
+        </div>
+
+        <!-- Academic Content -->
+        <div class="faq-content active" id="academic">
+            <div class="faq-item">
+                <button class="faq-question">What are the benefits of the course? <span>⌄</span></button>
+                <div class="faq-answer">The course offers (a) Deep understanding of Competition Law & Economics (b) Insights from global experts (c) Practical case-based learning (d) Networking with a diverse group of participants and alumni.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is the course entirely online? <span>⌄</span></button>
+                <div class="faq-answer">The Thirteenth Batch is delivered completely online through IICA's advanced Learning Management System (LMS) with live virtual classes.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What would be the time schedule for online classes? <span>⌄</span></button>
+                <div class="faq-answer">Live virtual classes will be conducted on weekends to accommodate working professionals. Class schedule will be shared with participants in advance. Masterclasses may vary based on expert availability.
+
+</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What is the assessment methodology? <span>⌄</span></button>
+                <div class="faq-answer">The course follows a continuous assessment pattern with Module-wise MCQ exams (40% weightage) and a final presentation (60% weightage).</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Who is the target audience for this course? <span>⌄</span></button>
+                <div class="faq-answer">It is ideal for mid-to-senior level executives, legal practitioners, corporate lawyers, policymakers, regulators, researchers, and students interested in competition law and market regulation.</div>
+            </div>
+        </div>
+
+        <!-- Enrollment Content -->
+        <div class="faq-content" id="enrollment">
+            <div class="faq-item">
+                <button class="faq-question">What are the eligibility criteria for the course? <span>⌄</span></button>
+                <div class="faq-answer">Open to all interested participants. The course is an integrated program designed for Competition Law and Market Regulation.
+</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is the course open for International participants? <span>⌄</span></button>
+                <div class="faq-answer">Yes. Fill out the registration form for our team to connect with you with details.</div>
+            </div>
+        </div>
+
+        <!-- Policy Content -->
+        <div class="faq-content" id="policy">
+            <div class="faq-item">
+                <button class="faq-question">Is there any financial aid or scholarship for the course? <span>⌄</span></button>
+                <div class="faq-answer">No.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Do you have any refund policy? <span>⌄</span></button>
+                <div class="faq-answer">No.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What is the mode of delivery? <span>⌄</span></button>
+                <div class="faq-answer">The course is delivered completely online through the IICA's Learning Management System (LMS) with live virtual classes.</div>
+            </div>
+        </div>
+
+        <div class="faq-contact">
+            If your query is not addressed here, please feel free to <a href="#contact">get in touch</a> with us.
+        </div>
+    </div>
+</section>
+
+    <!-- About Section containing IICA & SoCLMR descriptors -->
+    <section class="py-20 bg-slate-50 border-t border-b border-slate-200/60">
+        <div class="px-[10%] grid grid-cols-1 lg:grid-cols-2 gap-12 text-slate-600">
+            <!-- About IICA -->
+            <div class="space-y-4">
+                <h3 class="text-xl font-bold text-slate-900">About IICA</h3>
+                <div class="h-1.5 w-12  bg-gradient-to-r from-[#0f5298] to-[#c4d600] rounded-full"></div>
+                <p class="text-xs sm:text-sm leading-relaxed text-justify">
+                    The Indian Institute of Corporate Affairs (IICA) is an autonomous institution engaging with various aspects of the corporate sector. It is established under the Ministry of Corporate Affairs, Government of India.
+                </p>
+                <p class="text-xs sm:text-sm leading-relaxed text-justify">
+                    Operating through various specialized schools and centers, IICA works to facilitate capacity building, action-research, and strategic inputs for corporate law policies.
+                </p>
+            </div>
+
+            <!-- About School -->
+            <div class="space-y-4">
+                <h3 class="text-xl font-bold text-slate-900">About School (SoCLMR)</h3>
+                <div class="h-1.5 w-12  bg-gradient-to-r from-[#0f5298] to-[#c4d600] rounded-full"></div>
+                <p class="text-xs sm:text-sm leading-relaxed text-justify">
+                    The School of Competition Law & Market Regulation (SoCLMR) at IICA has been active in the area of competition law and market regulation. It has been conducting various research and capacity building programs.
+                </p>
+                <p class="text-xs sm:text-sm leading-relaxed text-justify">
+                    The School engages closely with competition law parameters, standard-essential patent ecosystems, and key procurement procedures to build robust institutional capacity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info & Geographic Location map -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="px-[10%] grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-5 space-y-6">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-[#0f5298] tracking-tight">Contact Info</h2>
+                <div class="h-1.5 w-12  bg-gradient-to-r from-[#0f5298] to-[#c4d600] rounded-full"></div> 
+                <div class="space-y-5">
+                    <!-- Point 1 -->
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-[#0f5298]/10 text-[#0f5298] rounded-xl flex items-center justify-center text-sm mt-0.5 shadow-xs">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Email Address</p>
+                            <p class="text-xs sm:text-sm font-semibold text-slate-800">competitionlaw@iica.in</p>
+                        </div>
+                    </div>
+
+                    <!-- Point 2 -->
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-[#0f5298]/10 text-[#0f5298] rounded-xl flex items-center justify-center text-sm mt-0.5 shadow-xs">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Phone Number</p>
+                            <p class="text-xs sm:text-sm font-semibold text-slate-800">+91-7042712100 / 0124-2640000</p>
+                        </div>
+                    </div>
+
+                    <!-- Point 3 -->
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-[#0f5298]/10 text-[#0f5298] rounded-xl flex items-center justify-center text-sm mt-0.5 shadow-xs">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Our Location</p>
+                            <p class="text-xs sm:text-sm font-semibold text-slate-800 leading-relaxed">
+                                IMT Manesar, Sector 5, Gurugram, Haryana - 122052
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Embedded Interactive Google Map exactly as requested -->
+            <div class="lg:col-span-7">
+                <div class="bg-gradient-to-tr from-slate-100 to-slate-50 p-4 rounded-2xl border border-slate-200/60 shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.6652463925693!2d76.9329214!3d28.368968600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3dcc4dfd9775%3A0x527b3e51fa83641c!2sIndian%20Institute%20Of%20Corporate%20Affairs%2C%20Sector%205%2C%20Imt%20Manesar%2C%20Gurugram%2C%20Haryana%20122052!5e0!3m2!1sen!2sin!4v1782363685104!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            class="rounded-xl shadow-inner">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section with Official MCA Branding and styling matching the real landing page -->
+    <footer class="bg-[#0b2545] text-slate-300 py-12 border-t border-slate-800">
+        <div class="px-[10%] grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Column 1 -->
+            <div class="space-y-4">
+                <div class="flex items-center gap-3">
+                    <img src="images\logo_iica.png" alt="logo" class="h-13 w-auto">
+                </div>
+                <p class="text-xs leading-relaxed text-justify text-slate-400">
+                    Established by the Ministry of Corporate Affairs (MCA), Government of India (GoI) to act as a think tank and a centre of excellence to augment the growth of the corporate sector in India through an integrated and multidisciplinary approach.
+                </p>
+                <!-- Auxiliary government logos -->
+                <div class="flex gap-2">
+                    <img src="images\azadi-ka-amrit-mahotsav.webp" alt="Azadi logo" class="h-1 object-contain">
+                    <img src="images\viksit bharat.jpg" alt="G20 logo" class="h-12 object-contain">
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="space-y-4">
+                <h4 class="text-white font-bold text-xs uppercase tracking-widest">Quick Links</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#home" class="hover:text-white transition-colors premium-transition">Overview</a></li>
+                    <li><a href="#features" class="hover:text-white transition-colors premium-transition">Course Features</a></li>
+                    <li><a href="Files\APC Brochure.pdf" class="hover:text-white transition-colors premium-transition">Brochure</a></li>
+                    <li><a href="#faq" class="hover:text-white transition-colors premium-transition">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="space-y-4">
+                <h4 class="text-white font-bold text-xs uppercase tracking-widest">Contact Us</h4>
+                <p class="text-xs leading-relaxed text-slate-400">
+                    Indian Institute of Corporate Affairs, Sector 5, IMT Manesar, Gurugram, Haryana - 122052
+                </p>
+                <p class="text-xs text-slate-400">0124-2640000</p>
+                <p class="text-xs text-slate-400">contactus@iica.nic.in</p>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="space-y-4">
+                <h4 class="text-white font-bold text-xs uppercase tracking-widest">Follow Us</h4>
+                <div class="flex gap-4 text-lg">
+                    <a href="https://linkedin.com" target="_blank" class="hover:text-white transition-colors premium-transition"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="hover:text-white transition-colors premium-transition"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="hover:text-white transition-colors premium-transition"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-slate-800 mt-12 pt-6 text-center text-xs text-slate-500 px-[10%]">
+            <p>© 2026 Indian Institute of Corporate Affairs. All Rights Reserved. - Designed, Developed and Maintained by IT Department, IICA.</p>
+        </div>
+    </footer>
+    <script>
+    let currentFacultyPage = 1;
+    const totalPages = 4;
+
+    function showFacultyPage(page) {
+        // Update the indicator label
+        document.getElementById('faculty-page-indicator').innerText = "Page " + page + " of " + totalPages;
+        
+        // Hide all pages
+        document.querySelectorAll('.faculty-page').forEach(p => p.classList.add('hidden'));
+        
+        // Show only the selected page
+        document.getElementById('page-' + page).classList.remove('hidden');
+        
+        currentFacultyPage = page;
+    }
+
+    function prevFacultyPage() {
+        showFacultyPage(currentFacultyPage === 1 ? totalPages : currentFacultyPage - 1);
+    }
+
+    function nextFacultyPage() {
+        showFacultyPage(currentFacultyPage === totalPages ? 1 : currentFacultyPage + 1);
+    }
+
+        // FAQ interactive scripts logic initialization 
+        document.querySelectorAll(".faq-tab").forEach(tab=>{
+            tab.addEventListener("click",()=>{
+                document.querySelectorAll(".faq-tab").forEach(t=>t.classList.remove("active"));
+                document.querySelectorAll(".faq-content").forEach(c=>c.classList.remove("active"));
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
+        });
+
+        document.querySelectorAll(".faq-content").forEach(group=>{
+            group.querySelectorAll(".faq-question").forEach(question=>{
+                question.addEventListener("click",()=>{
+                    group.querySelectorAll(".faq-item").forEach(item=>{
+                        if(item!==question.parentElement){
+                            item.classList.remove("open");
+                            item.querySelector(".faq-question").classList.remove("active");
+                        }
+                    });
+                    question.parentElement.classList.toggle("open");
+                    question.classList.toggle("active");
+                });
+            });
+        });
+
+function toggleModuleMobile(moduleNumber) {
+    const content = document.getElementById(`mod-content-${moduleNumber}`);
+    const icon = document.getElementById(`mod-icon-${moduleNumber}`);
+
+    if (!content || !icon) return;
+
+    const isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
+
+    if (isOpen) {
+        content.style.maxHeight = "0";
+        icon.classList.remove("rotate-180");
+    } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        icon.classList.add("rotate-180");
+    }
+}
+    </script>
+</body>
+</html>
