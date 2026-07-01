@@ -91,3 +91,175 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+/* ======================================================
+   PREMIUM WEBSITE ANIMATIONS
+====================================================== */
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+    /* Scroll Reveal */
+
+    const reveals=document.querySelectorAll("section,article,.bg-white,.rounded-2xl");
+
+    reveals.forEach(el=>{
+
+        el.classList.add("reveal");
+
+    });
+
+    const observer=new IntersectionObserver(entries=>{
+
+        entries.forEach(entry=>{
+
+            if(entry.isIntersecting){
+
+                entry.target.classList.add("active");
+
+            }
+
+        });
+
+    },{
+
+        threshold:.15
+
+    });
+
+    reveals.forEach(el=>observer.observe(el));
+
+
+
+    /* Floating Hero Card */
+
+    const hero=document.querySelector("#home .lg\\:col-span-4");
+
+    if(hero){
+
+        hero.classList.add("float");
+
+    }
+
+
+
+    /* Hover Cards */
+
+    document.querySelectorAll("article").forEach(card=>{
+
+        card.classList.add("card-3d");
+
+        card.classList.add("shine");
+
+    });
+
+
+
+    /* Pulse Icons */
+
+    document.querySelectorAll("i").forEach(icon=>{
+
+        icon.classList.add("icon-pulse");
+
+    });
+
+
+
+    /* Glow Buttons */
+
+    document.querySelectorAll("a,button").forEach(btn=>{
+
+        btn.classList.add("glow-btn");
+
+    });
+
+
+
+    /* Smooth Counter Animation */
+
+    const counters=document.querySelectorAll("[data-counter]");
+
+
+
+    counters.forEach(counter=>{
+
+        const target=Number(counter.dataset.counter);
+
+        let current=0;
+
+        const increment=target/240;
+
+
+
+        function update(){
+
+            current+=increment;
+
+            if(current<target){
+
+                counter.innerText=Math.floor(current);
+
+                requestAnimationFrame(update);
+
+            }
+
+            else{
+
+                counter.innerText=target;
+
+            }
+
+        }
+
+
+
+        update();
+
+    });
+
+
+
+    /* Mouse Tilt Effect */
+
+    document.querySelectorAll(".card-3d").forEach(card=>{
+
+        card.addEventListener("mousemove",(e)=>{
+
+            const rect=card.getBoundingClientRect();
+
+            const x=e.clientX-rect.left;
+
+            const y=e.clientY-rect.top;
+
+            const rotateY=(x-rect.width/2)/50;
+
+            const rotateX=-(y-rect.height/2)/50;
+
+    // Limit rotation to ±4°
+    rotateY = Math.max(-4, Math.min(4, rotateY));
+    rotateX = Math.max(-4, Math.min(4, rotateX));
+
+
+            card.style.transform=
+
+            `perspective(900px)
+
+            rotateX(${rotateX}deg)
+
+            rotateY(${rotateY}deg)
+
+            translateY(-8px)`;
+
+        });
+
+
+
+        card.addEventListener("mouseleave",()=>{
+
+            card.style.transform="";
+
+        });
+
+    });
+
+});
+
